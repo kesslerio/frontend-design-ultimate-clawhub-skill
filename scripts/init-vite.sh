@@ -329,8 +329,10 @@ EOF
 echo ""
 echo "📦 Installing shadcn/ui components..."
 
-# Install all common components via shadcn CLI
-npx shadcn@latest add button badge card accordion dialog navigation-menu tabs sheet separator avatar alert -y
+# Install common components via shadcn CLI
+npx shadcn@latest add button badge card accordion dialog navigation-menu tabs sheet separator avatar alert -y || {
+  echo "⚠️ Warning: Some shadcn components may not have installed. Run 'npx shadcn@latest add [name]' manually."
+}
 
 echo ""
 echo "✅ Project created successfully!"

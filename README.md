@@ -13,7 +13,7 @@ An OpenClaw/Claude Code skill that generates bold, memorable web designs from pl
 - 🚫 **Anti-AI-slop** — Explicit guidance to avoid generic designs (no Inter, no purple gradients, no centered layouts)
 - 📱 **Mobile-first patterns** — Responsive CSS that actually works
 - ⚡ **Two workflows** — Vite (pure static) or Next.js (Vercel deploy)
-- 🧩 **40+ shadcn/ui components** — Pre-installed and ready to use
+- 🧩 **shadcn/ui components** — 10 common components pre-installed, add more with CLI
 - 📦 **Single-file bundling** — Bundle entire sites to one HTML file
 
 ## Quick Start

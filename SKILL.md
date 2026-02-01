@@ -333,7 +333,9 @@ Run this before finalizing any design:
 
 ## shadcn/ui Components
 
-40+ components pre-installed. See **[references/shadcn-components.md](references/shadcn-components.md)**.
+10 common components pre-installed (button, badge, card, accordion, dialog, navigation-menu, tabs, sheet, separator, avatar, alert). Add more with `npx shadcn@latest add [name]` or install all with `npx shadcn@latest add --all`.
+
+See **[references/shadcn-components.md](references/shadcn-components.md)** for full component reference.
 
 Most used for landing pages:
 - `Button`, `Badge` — CTAs and labels

@@ -40,7 +40,9 @@ npx shadcn@latest init -y -d
 
 # Install common components
 echo "📦 Installing common components..."
-npx shadcn@latest add button badge card accordion dialog navigation-menu tabs sheet separator avatar alert -y
+npx shadcn@latest add button badge card accordion dialog navigation-menu tabs sheet separator avatar alert -y || {
+  echo "⚠️ Warning: Some shadcn components may not have installed. Run 'npx shadcn@latest add [name]' manually."
+}
 
 # Install lucide icons
 npm install lucide-react
